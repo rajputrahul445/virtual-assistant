@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Slider = () => {
     return(
         <div className="sliderWrp">
-            <Carousel autoPlay infiniteLoop>
+            <Carousel autoPlay infiniteLoop preventMovementUntilSwipeScrollTolerance={true}>
                 <div className="sliderDiv">
                     <div className="sliderOverlay"></div>
                     <img src="images/pexels-hillaryfox-1595385.jpg" alt=""/>
